@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.ads.AdView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:id="@+id/adView"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+ads:adSize="BANNER"
+ads:adUnitId="a151c0a237afe98"
+ads:loadAdOnCreate="true"
+android:visibility="gone" />

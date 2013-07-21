@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sanjivini Homeopathy</string>
+    <string name="action_settings">EM APPS</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="rivers">
+        <item>About</item>
+        <item>Instructions</item>
+        <item>Symptoms</item>
+        <item>Enfants</item>
+        <item>One Remedy</item>
+        <item>***Materia Medica ***</item>
+        <item>Abies Canadensis</item>
+        <item>Abies Nigra</item>
+        <item>Abrotanum</item>
+        <item>Absinthium</item>
+        <item>Acalypha Indica</item>
+        <item>Aceticum Acidum</item>
+        <item>Aconitinum</item>
+        <item>Aconitum Cammarum</item>
+        <item>Aconitum Ferox</item>
+        <item>Aconitum Lycoctonum</item>
+        <item>Aconitum Napellus</item>
+        <item>Actæa Racemosa</item>
+        <item>Actæa Spicata</item>
+        <item>Adonis</item>
+        <item>Adrenalin</item>
+        <item>Æsculus Glabra</item>
+        <item>Æsculus Hippocastanum</item>
+        <item>Æthiops Antimonialis</item>
+        <item>Æthusa</item>
+        <item>Agaricus Emeticus</item>
+        <item>Agaricus Muscarius</item>
+        <item>Agaricus Phalloides</item>
+        <item>Agave Americana</item>
+        <item>Agnus Castus</item>
+        <item>Agraphis Nutans</item>
+        <item>Agrostema Githago</item>
+        <item>Ailanthus Glandulosa</item>
+        <item>Aletris Farinosa</item>
+        <item>Allium Cepa</item>
+        <item>Allium Sativum</item>
+        <item>Alnus</item>
+        <item>Aloe</item>
+        <item>Alstonia Constricta</item>
+        <item>Alumen</item>
+        <item>Alumina</item>
+        <item>Ambra Grisea</item>
+        <item>Ambrosia Artemisiæfolia</item>
+        <item>Ammoniacum</item>
+        <item>Ammonium Aceticum</item>
+        <item>Ammonium Benzoicum</item>
+        <item>Ammonium Bromatum</item>
+        <item>Ammonium Carbonicum</item>
+        <item>Ammonium Causticum</item>
+        <item>Ammonium Muriaticum</item>
+        <item>Ammonium Phosphoricum</item>
+        <item>Ammonium Picricum</item>
+        <item>Ampelopsis</item>
+        <item>Amphisbæna</item>
+        <item>Amygdalæ Amaræ Aqua</item>
+        <item>Amylenum Nitrosum</item>
+        <item>Anacardium Occidentale</item>
+        <item>Anacardium Orientale</item>
+        <item>Anagallis Arvensis</item>
+        <item>Anatherum</item>
+        <item>Angophora</item>
+        <item>Angustura Vera</item>
+        <item>Anhalonium Lewinii</item>
+        <item>Anilinum</item>
+        <item>Anthemis Nobilis</item>
+        <item>Anthoxanthum</item>
+        <item>Anthracinum</item>
+        <item>Anthrokokali</item>
+        <item>Antifebrinum</item>
+        <item>Antimonium Arsenicicum</item>
+        <item>Antimonium Crudum</item>
+        <item>Antimonium Iodatum</item>
+        <item>Antimonium Muriaticum</item>
+        <item>Antimonium Sulphuratum Aureum</item>
+        <item>Antimonium Tartaricum</item>
+        <item>Antipyrinum</item>
+        <item>Aphis Chenopodii Glauci</item>
+        <item>Apis</item>
+        <item>Apium Graveolens</item>
+        <item>Apocynum Androsæmifolium</item>
+        <item>Apocynum Cannabinum</item>
+        <item>Apomorphinum</item>
+        <item>Aqua Marina</item>
+        <item>Aquilegia Vulgaris</item>
+        <item>Aralia Racemosa</item>
+        <item>Aranea Diadema</item>
+        <item>Aranearum Tela</item>
+        <item>Aranea Scinencia</item>
+        <item>Arbutus Andrachne</item>
+        <item>Arctium Lappa</item>
+        <item>Areca</item>
+        <item>Argentum Cyanatum</item>
+        <item>Argentum Iodatum</item>
+        <item>Argentum Metallicum</item>
+        <item>Argentum Nitricum</item>
+        <item>Aristolochia Milhomens</item>
+        <item>Aristolochia Serpentaria</item>
+        <item>Armoracea Sativa</item>
+        <item>Arnica</item>
+        <item>Arsenicum Album</item>
+        <item>Arsenicum Bromatum</item>
+        <item>Arsenicum Hydrogenisatum</item>
+        <item>Arsenicum Iodatum</item>
+        <item>Arsenicum Metallicum</item>
+        <item>Arsenicum Sulphuratum Flavum</item>
+        <item>Arsenicum Sulphuratum Rubrum</item>
+        <item>Artemisia Vulgaris</item>
+        <item>Arum Dracontium</item>
+        <item>Arum Dracunculus</item>
+        <item>Arum Italicum</item>
+        <item>Arum Maculatum</item>
+        <item>Arum Triphyllum</item>
+        <item>Arundo Mauritanica</item>
+        <item>Asafœtida</item>
+        <item>Asarum Europœum</item>
+        <item>Asclepias Syriaca</item>
+        <item>Asclepias Tuberosa</item>
+        <item>Asimina Triloba</item>
+        <item>Asparagus</item>
+        <item>Astacus Fluviatilis</item>
+        <item>Asterias Rubens</item>
+        <item>Astragalus Menziesii</item>
+        <item>Athamanta</item>
+        <item>Atropinum</item>
+        <item>Aurantium</item>
+        <item>Aurum Arsenicicum</item>
+        <item>Aurum Bromatum</item>
+        <item>Aurum Iodatum</item>
+        <item>Aurum Metallicum</item>
+        <item>Aurum Muriaticum</item>
+        <item>Aurum Muriaticum Kalinatum</item>
+        <item>Aurum Muriaticum Natronatum</item>
+        <item>Aurum Sulphuratum</item>
+        <item>Avena Sativa</item>
+        <item>Aviaire</item>
+        <item>Azadirachta Indica</item>
+        <item>Jequirity</item>
+        <item>Cenchris Contortrix</item>
+        <item>Brucea Antidysenterica</item>
+        <item>Illicium Anisatum</item>
+        <item>Cina</item>
+        <item>Bacillinum</item>
+        <item>Bacillinum Testium</item>
+        <item>Badiaga</item>
+        <item>Balsamum Peruvianum</item>
+        <item>Baptisia Confusa Acetica</item>
+        <item>Baptisia Tinctoria</item>
+        <item>Barosma</item>
+        <item>Baryta Carbonica</item>
+        <item>Baryta Iodata</item>
+        <item>Baryta Muriatica</item>
+        <item>Belladonna</item>
+        <item>Bellis Perennis</item>
+        <item>Benzinum</item>
+        <item>Benzinum Dinitricum</item>
+        <item>Benzinum Nitricum</item>
+        <item>Benzoicum Acidum</item>
+        <item>Benzoin</item>
+        <item>Berberis Aquifolium</item>
+        <item>Berberis Vulgaris</item>
+        <item>Bismuthum</item>
+        <item>Blatta Americana</item>
+        <item>Blatta Orientalis</item>
+        <item>Boletus Laricis</item>
+        <item>Boletus Luridus</item>
+        <item>Boletus Satanas</item>
+        <item>Bombyx Processionea</item>
+        <item>Boracicum Acidum</item>
+        <item>Borax</item>
+        <item>Bothrops Lanceolatus</item>
+        <item>Bovista</item>
+        <item>Brachyglottis Repens</item>
+        <item>Brassica Napus</item>
+        <item>Bromium</item>
+        <item>Brucinum</item>
+        <item>Bryonia</item>
+        <item>Bufo</item>
+        <item>Thlaspi Bursa Pastoris</item>
+        <item>Cactus Grandiflorus</item>
+        <item>Cadmium Bromatum</item>
+        <item>Cadmium Sulphuratum</item>
+        <item>Cainca</item>
+        <item>Cajuputum</item>
+        <item>Caladium</item>
+        <item>Calcarea Acetica</item>
+        <item>Calcarea Arsenicosa</item>
+        <item>Calcarea Bromata</item>
+        <item>Calcarea Carbonica</item>
+        <item>Calcarea Caustica</item>
+        <item>Calcarea Chlorinata</item>
+        <item>Calcarea Fluorata</item>
+        <item>Calcarea Hypophosphorosa</item>
+        <item>Calcarea Iodata</item>
+        <item>Calcarea Lactica</item>
+        <item>Calcarea Lactica Natronata</item>
+        <item>Calcarea Muriatica</item>
+        <item>Calcarea Ovi Testæ</item>
+        <item>Calcarea Oxalica</item>
+        <item>Calcarea Phosphorica</item>
+        <item>Calcarea Picrica</item>
+        <item>Calcarea Renalis</item>
+        <item>Calcarea Silicica</item>
+        <item>Calcarea Sulphurica</item>
+        <item>Calendula</item>
+        <item>Calotropis</item>
+        <item>Caltha Palustris</item>
+        <item>Camphora</item>
+        <item>Camphora Bromata</item>
+        <item>Canchalagua</item>
+        <item>Cannabis Indica</item>
+        <item>Cannabis Sativa</item>
+        <item>Cantharis</item>
+        <item>Capsicum</item>
+        <item>Carbo Animalis</item>
+        <item>Carbo Vegetabilis</item>
+        <item>Carbolicum Acidum</item>
+        <item>Carboneum</item>
+        <item>Carboneum Hydrogenisatum</item>
+        <item>Carboneum Oxygenisatum</item>
+        <item>Carboneum Sulphuratum</item>
+        <item>Carcinosinum</item>
+        <item>Carduus Benedictus</item>
+        <item>Carduus Marianus</item>
+        <item>Carlsbad</item>
+        <item>Carya Alba</item>
+        <item>Cascara Sagrada</item>
+        <item>Cascarilla</item>
+        <item>Castanea Vesca</item>
+        <item>Castor Equi</item>
+        <item>Castoreum</item>
+        <item>Caulophyllum</item>
+        <item>Causticum</item>
+        <item>Ceanothus Americanus</item>
+        <item>Cedron</item>
+        <item>Centaurea Tagana</item>
+        <item>Cereus Bonplandii</item>
+        <item>Cereus Serpentinus</item>
+        <item>Cerium Oxalicum</item>
+        <item>Cervus</item>
+        <item>Cetraria Islandica</item>
+        <item>Chamomilla</item>
+        <item>Chaparro Amargoso</item>
+        <item>Cheiranthus Cheiri</item>
+        <item>Chelidonium</item>
+        <item>Chelone</item>
+        <item>Chenopodium Anthelminticum</item>
+        <item>Chenopodium Vulvaria</item>
+        <item>Chimaphila Maculata</item>
+        <item>Chimaphila Umbellata</item>
+        <item>China Boliviana</item>
+        <item>China Officinalis</item>
+        <item>Chininum Arsenicosum</item>
+        <item>Chininum Muriaticum</item>
+        <item>Chininum Salicylicum</item>
+        <item>Chininum Sulphuricum</item>
+        <item>Chionanthus Virginica</item>
+        <item>Chloralum</item>
+        <item>Chloroformum</item>
+        <item>Chlorum</item>
+        <item>Cholesterinum</item>
+        <item>Chromicum Acidum</item>
+        <item>Chromium Kali Sulphuratum</item>
+        <item>Chrysophanicum Acidum</item>
+        <item>Cichorium</item>
+        <item>Cicuta Maculata</item>
+        <item>Cicuta Virosa</item>
+        <item>Cimex</item>
+        <item>Cinchoninum Sulphuricum</item>
+        <item>Cineraria Maritima</item>
+        <item>Cinnabaris</item>
+        <item>Cinnamomum</item>
+        <item>Cistus Canadensis</item>
+        <item>Citrus Limonum</item>
+        <item>Clematis Erecta</item>
+        <item>Cobaltum</item>
+        <item>Coca</item>
+        <item>Coccinella</item>
+        <item>Cocculus</item>
+        <item>Coccus Cacti</item>
+        <item>Codeinum</item>
+        <item>Coffea Cruda</item>
+        <item>Coffea Tosta</item>
+        <item>Coffeinum</item>
+        <item>Colchicinum</item>
+        <item>Colchicum</item>
+        <item>Collinsonia Canadensis</item>
+        <item>Colocynthinum</item>
+        <item>Colocynthis</item>
+        <item>Colostrum</item>
+        <item>Comocladia</item>
+        <item>Conchiolinum</item>
+        <item>Coniinum</item>
+        <item>Coniinum Bromatum</item>
+        <item>Conium Maculatum</item>
+        <item>Convallaria</item>
+        <item>Convolvulus Arvensis</item>
+        <item>Convolvulus Duartinus</item>
+        <item>Copaiva</item>
+        <item>Coqueluchinum</item>
+        <item>Corallium Rubrum</item>
+        <item>Coriaria Ruscifolia</item>
+        <item>Cornus Alternifolia</item>
+        <item>Cornus Circinata</item>
+        <item>Cornus Florida</item>
+        <item>Corydalis</item>
+        <item>Coto Bark</item>
+        <item>Cotyledon</item>
+        <item>Cratægus Oxyacantha</item>
+        <item>Crocus</item>
+        <item>Crotalus Cascavella</item>
+        <item>Crotalus Horridus</item>
+        <item>Croton Chloral</item>
+        <item>Croton Tiglium</item>
+        <item>Cubeba</item>
+        <item>Cucurbita Pepo</item>
+        <item>Culex Musca</item>
+        <item>Cundurango</item>
+        <item>Cuphea Viscosissima</item>
+        <item>Cupressus Australis</item>
+        <item>Cupressus Lawsoniana</item>
+        <item>Cuprum Aceticum</item>
+        <item>Cuprum Arsenicosum</item>
+        <item>Cuprum Metallicum</item>
+        <item>Cuprum Sulphuricum</item>
+        <item>Curare</item>
+        <item>Cyclamen</item>
+        <item>Cypripedium</item>
+        <item>Physostigma</item>
+        <item>Lapis Albus</item>
+        <item>Rosa Canina</item>
+        <item>Daphne Indica</item>
+        <item>Datura Arborea</item>
+        <item>Datura Ferox</item>
+        <item>Datura Metel</item>
+        <item>Derris Pinnata</item>
+        <item>Dictamnus</item>
+        <item>Digitalinum</item>
+        <item>Digitalis</item>
+        <item>Digitoxinum</item>
+        <item>Dioscorea</item>
+        <item>Diphtherinum</item>
+        <item>Dirca Palustris</item>
+        <item>Dolichos</item>
+        <item>Doryphora</item>
+        <item>Drosera</item>
+        <item>Duboisinum</item>
+        <item>Dulcamara</item>
+        <item>Turnera Aphrodisiaca</item>
+        <item>Echinacea Angustifolia</item>
+        <item>Echinacea Purpurea</item>
+        <item>Elæis Guineensis</item>
+        <item>Elaps</item>
+        <item>Elaterium</item>
+        <item>Electricitas</item>
+        <item>Ephedra Vulgaris</item>
+        <item>Epigea Repens</item>
+        <item>Epihysterinum</item>
+        <item>Epilobium Palustre</item>
+        <item>Epiphegus</item>
+        <item>Equisetum</item>
+        <item>Erechthites</item>
+        <item>Ergotinum</item>
+        <item>Erigeron</item>
+        <item>Eriodictyon Glutinosum</item>
+        <item>Erodium</item>
+        <item>Eryngium Aquaticum</item>
+        <item>Eryngium Maritimum</item>
+        <item>Erythrinus</item>
+        <item>Eserinum</item>
+        <item>Etherum</item>
+        <item>Ethylum Nitricum</item>
+        <item>Eucalyptus</item>
+        <item>Eugenia Jambos</item>
+        <item>Euonyminum</item>
+        <item>Euonymus Atropurpurea</item>
+        <item>Euonymus Europæa</item>
+        <item>Eupatorium Aromaticum</item>
+        <item>Eupatorium Perfoliatum</item>
+        <item>Eupatorium Purpureum</item>
+        <item>Euphorbia Amygdaloides</item>
+        <item>Euphorbia Corollata</item>
+        <item>Euphorbia Cyparissias</item>
+        <item>Euphorbia Heterodoxa</item>
+        <item>Euphorbia Hypericifolia</item>
+        <item>Euphorbia Ipecacuanhæ</item>
+        <item>Euphorbia Lathyris</item>
+        <item>Euphorbia Peplus</item>
+        <item>Euphorbia Pilulifera</item>
+        <item>Euphorbium</item>
+        <item>Euphrasia</item>
+        <item>Eupionum</item>
+        <item>Fagopyrum</item>
+        <item>Fagus</item>
+        <item>Fel Tauri</item>
+        <item>Ferrum</item>
+        <item>Ferrum Arsenicicum</item>
+        <item>Ferrum Bromatum</item>
+        <item>Ferrum Iodatum</item>
+        <item>Ferrum Magneticum</item>
+        <item>Ferrum Muriaticum</item>
+        <item>Ferrum Pernitricum</item>
+        <item>Ferrum Phosphoricum</item>
+        <item>Ferrum Phosphoricum Hydricum</item>
+        <item>Ferrum Picricum</item>
+        <item>Ferrum Pyrophosphoricum</item>
+        <item>Ferrum Sulphuricum</item>
+        <item>Ferrum Tartaricum</item>
+        <item>Ferula Glauca</item>
+        <item>Ficus Religiosa</item>
+        <item>Filix Mas</item>
+        <item>Fluoricum Acidum</item>
+        <item>Formica</item>
+        <item>Fragaria Vesca</item>
+        <item>Franciscea Uniflora</item>
+        <item>Franzensbad</item>
+        <item>Fraxinus Americana</item>
+        <item>Fucus Vesiculosus</item>
+        <item>Gadus Morrhua</item>
+        <item>Galega</item>
+        <item>Galium</item>
+        <item>Gallicum Acidum</item>
+        <item>Galvanismus</item>
+        <item>Gambogia</item>
+        <item>Gastein</item>
+        <item>Gaultheria</item>
+        <item>Gelsemium</item>
+        <item>Genista</item>
+        <item>Gentiana Cruciata</item>
+        <item>Gentiana Lutea</item>
+        <item>Gentiana Quinqueflora</item>
+        <item>Geranium Maculatum</item>
+        <item>Gettysburg</item>
+        <item>Geum Rivale</item>
+        <item>Ginseng</item>
+        <item>Glonoinum</item>
+        <item>Gnaphalium</item>
+        <item>Gossypium Herbaceum</item>
+        <item>Granatum</item>
+        <item>Graphites</item>
+        <item>Gratiola</item>
+        <item>Grindelia</item>
+        <item>Guaco</item>
+        <item>Guaiacum</item>
+        <item>Guarana</item>
+        <item>Guarea</item>
+        <item>Gymnema Sylvestre</item>
+        <item>Gymnocladus Canadensis</item>
+        <item>Gunpowder</item>
+        <item>Medorrhinum</item>
+        <item>Hæmatoxylon</item>
+        <item>Hall</item>
+        <item>Hamamelis</item>
+        <item>Hecla</item>
+        <item>Hedeoma</item>
+        <item>Hedera Helix</item>
+        <item>Hedysarum Ildefonsianum</item>
+        <item>Helianthus</item>
+        <item>Heliotropium</item>
+        <item>Helix Tosta</item>
+        <item>Helleborus Fœtidus</item>
+        <item>Helleborus Niger</item>
+        <item>Helleborus Orientalis</item>
+        <item>Helleborus Viridis</item>
+        <item>Heloderma</item>
+        <item>Helonias</item>
+        <item>Hepar</item>
+        <item>Hepatica</item>
+        <item>Heracleum</item>
+        <item>Hippomanes</item>
+        <item>Hippozæninum</item>
+        <item>Hoang-Nan</item>
+        <item>Homarus</item>
+        <item>Homeria</item>
+        <item>Hura Brasiliensis</item>
+        <item>Hura Crepitans</item>
+        <item>Hydrangea Arborescens</item>
+        <item>Hydrastininum Muriaticum</item>
+        <item>Hydrastinum Muriaticum</item>
+        <item>Hydrastis</item>
+        <item>Hydrocotyle Asiatica</item>
+        <item>Hydrocyanicum Acidum</item>
+        <item>Hydrophobinum</item>
+        <item>Hydrophyllum Virginianum</item>
+        <item>Hyoscyaminum</item>
+        <item>Hyoscyamus</item>
+        <item>Hypericum</item>
+        <item>Iberis</item>
+        <item>Ichthyolum</item>
+        <item>Ictodes Fœtida</item>
+        <item>Ignatia</item>
+        <item>Ilex Aquifolium</item>
+        <item>Imperatoria</item>
+        <item>Indigo</item>
+        <item>Indium</item>
+        <item>Influenzinum</item>
+        <item>Inula</item>
+        <item>Iodium</item>
+        <item>Iodoformum</item>
+        <item>Ipecacuanha</item>
+        <item>Iridium</item>
+        <item>Iris Florentina</item>
+        <item>Iris Fœtidissima</item>
+        <item>Iris Germanica</item>
+        <item>Iris Tenax</item>
+        <item>Iris Versicolor</item>
+        <item>Itu</item>
+        <item>Jaborandi</item>
+        <item>Jacaranda Caroba</item>
+        <item>Jacaranda Gualandai</item>
+        <item>Jalapa</item>
+        <item>Jasminum</item>
+        <item>Jatropha</item>
+        <item>Jatropha Urens</item>
+        <item>Juglans Cinerea</item>
+        <item>Juglans Regia</item>
+        <item>Juncus</item>
+        <item>Juniperus Communis</item>
+        <item>Juniperus Virginianus</item>
+        <item>Kali Aceticum</item>
+        <item>Kali Arsenicosum</item>
+        <item>Kali Bichromicum</item>
+        <item>Kali Bromatum</item>
+        <item>Kali Carbonicum</item>
+        <item>Kali Chloricum</item>
+        <item>Kali Chlorosum</item>
+        <item>Kali Citricum</item>
+        <item>Kali Cyanatum</item>
+        <item>Kali Ferrocyanatum</item>
+        <item>Kali Iodatum</item>
+        <item>Kali Muriaticum</item>
+        <item>Kali Nitricum</item>
+        <item>Kali Oxalicum</item>
+        <item>Kali Permanganicum</item>
+        <item>Kali Phosphoricum</item>
+        <item>Kali Picricum</item>
+        <item>Kali Sulphuratum</item>
+        <item>Kali Sulphuricum</item>
+        <item>Kali Tartaricum</item>
+        <item>Kali Telluricum</item>
+        <item>Kalmia Latifolia</item>
+        <item>Kamala</item>
+        <item>Kaolin</item>
+        <item>Karaka</item>
+        <item>Kerosolenum</item>
+        <item>Kissingen</item>
+        <item>Kousso</item>
+        <item>Kreosotum</item>
+        <item>Latrodectus Katipo</item>
+        <item>Piper Methysticum</item>
+        <item>Kino see Angophora</item>
+        <item>Ratanhia</item>
+        <item>Laburnum</item>
+        <item>Lac Caninum</item>
+        <item>Lac Felinum</item>
+        <item>Lac Vaccinum</item>
+        <item>Lac Vaccinum Coagulatum</item>
+        <item>Lac Vaccinum Defloratum</item>
+        <item>Lacerta</item>
+        <item>Lachesis</item>
+        <item>Lachnanthes</item>
+        <item>Lacticum Acidum</item>
+        <item>Lactis Vaccini Flos</item>
+        <item>Lactuca</item>
+        <item>Lamium</item>
+        <item>Lapathum</item>
+        <item>Lapsana Communis</item>
+        <item>Lathyrus</item>
+        <item>Latrodectus Mactans</item>
+        <item>Laurocerasus</item>
+        <item>Ledum</item>
+        <item>Lemna Minor</item>
+        <item>Leonurus Cardiaca</item>
+        <item>Lepidium Bonariense</item>
+        <item>Leptandra</item>
+        <item>Levico</item>
+        <item>Liatris Spicata</item>
+        <item>Lilium Tigrinum</item>
+        <item>Limulus</item>
+        <item>Linaria</item>
+        <item>Linum Catharticum</item>
+        <item>Linum Usitatissimum</item>
+        <item>Lippia Mexicana</item>
+        <item>Lippspringe</item>
+        <item>Lithium Benzoicum</item>
+        <item>Lithium Bromatum</item>
+        <item>Lithium Carbonicum</item>
+        <item>Lithium Lacticum</item>
+        <item>Lithium Muriaticum</item>
+        <item>Lobelia Cardinalis</item>
+        <item>Lobelia Dortmanna</item>
+        <item>Lobelia Erinus</item>
+        <item>Lobelia Inflata</item>
+        <item>Lobelia Purpurascens</item>
+        <item>Lobelia Syphilitica</item>
+        <item>Lolium Temulentum</item>
+        <item>Lonicera Periclymenum</item>
+        <item>Lonicera Xylosteum</item>
+        <item>Luna</item>
+        <item>Lupulus</item>
+        <item>Lycopersicum</item>
+        <item>Lycopodium</item>
+        <item>Lycopus</item>
+        <item>Lysidinum</item>
+        <item>Oxytropis Lamberti</item>
+        <item>Syphilinum</item>
+        <item>Macrotinum</item>
+        <item>Magnesia Carbonica</item>
+        <item>Magnesia Muriatica</item>
+        <item>Magnesia Phosphorica</item>
+        <item>Magnesia Sulphurica</item>
+        <item>Magnetis Poli Ambo</item>
+        <item>Magnetis Polus Arcticus</item>
+        <item>Magnetis Polus Australis</item>
+        <item>Magnolia Glauca</item>
+        <item>Magnolia Grandiflora</item>
+        <item>Malandrinum</item>
+        <item>Malaria Officinalis</item>
+        <item>Mancinella</item>
+        <item>Mandragora</item>
+        <item>Manganum</item>
+        <item>Manganum Muriaticum</item>
+        <item>Manganum Oxydatum Nativum</item>
+        <item>Manganum Sulphuricum</item>
+        <item>Matthiola Græca</item>
+        <item>Medusa</item>
+        <item>Melastoma</item>
+        <item>Melilotus</item>
+        <item>Melitagrinum</item>
+        <item>Menispermum</item>
+        <item>Mentha Piperita</item>
+        <item>Mentha Pulegium</item>
+        <item>Menyanthes</item>
+        <item>Mephitis</item>
+        <item>Mercurialis Perennis</item>
+        <item>Mercurius</item>
+        <item>Mercurius Aceticus</item>
+        <item>Mercurius Biniodatus</item>
+        <item>Mercurius Biniodatus cum Kali Iodatum</item>
+        <item>Mercurius Corrosivus</item>
+        <item>Mercurius Cyanatus</item>
+        <item>Mercurius Dulcis</item>
+        <item>Mercurius Nitricus</item>
+        <item>Mercurius Præcipitatus Albus</item>
+        <item>Mercurius Præcipitatus Ruber</item>
+        <item>Mercurius Protoiodatus</item>
+        <item>Mercurius Sulphocyanatus</item>
+        <item>Mercurius Sulphuricus</item>
+        <item>Methylene-blue</item>
+        <item>Mezereum</item>
+        <item>Millefolium</item>
+        <item>Mimosa</item>
+        <item>Mitchella</item>
+        <item>Momordica</item>
+        <item>Morbillinum</item>
+        <item>Morphinum</item>
+        <item>Moschus</item>
+        <item>Mucuna Urens</item>
+        <item>Murex</item>
+        <item>Muriaticum Acidum</item>
+        <item>Musa</item>
+        <item>Mygale</item>
+        <item>Myosotis</item>
+        <item>Myrica Cerifera</item>
+        <item>Myristica Sebifera</item>
+        <item>Myrtus Communis</item>
+        <item>Zea</item>
+        <item>Nabalus</item>
+        <item>Naja</item>
+        <item>Naphthalinum</item>
+        <item>Narcissus</item>
+        <item>Narcotinum</item>
+        <item>Natrum Arsenicicum</item>
+        <item>Natrum Cacodylicum</item>
+        <item>Natrum Carbonicum</item>
+        <item>Natrum Hypochlorosum</item>
+        <item>Natrum Iodatum</item>
+        <item>Natrum Lacticum</item>
+        <item>Natrum Muriaticum</item>
+        <item>Natrum Nitricum</item>
+        <item>Natrum Nitrosum</item>
+        <item>Natrum Phosphoricum</item>
+        <item>Natrum Salicylicum</item>
+        <item>Natrum Selenicum</item>
+        <item>Natrum Silicofluoricum</item>
+        <item>Natrum Sulphuricum</item>
+        <item>Natrum Sulphurosum</item>
+        <item>Nectrianinum</item>
+        <item>Niccolum</item>
+        <item>Niccolum Sulphuricum</item>
+        <item>Nicotinum</item>
+        <item>Nitri Spiritus Dulcis</item>
+        <item>Nitricum Acidum</item>
+        <item>Nitrogenum Oxygenatum</item>
+        <item>Nitroso-muriaticum Acidum</item>
+        <item>Nuphar Luteum</item>
+        <item>Nux Moschata</item>
+        <item>Nux Vomica</item>
+        <item>Nyctanthes</item>
+        <item>Nymphæa Odorata</item>
+        <item>Ocimum Canum</item>
+        <item>Œnanthe Crocata</item>
+        <item>Œnothera</item>
+        <item>Oleander</item>
+        <item>Oleum Animale</item>
+        <item>Oleum Jecoris Aselli</item>
+        <item>Oniscus</item>
+        <item>Ononis</item>
+        <item>Onosmodium</item>
+        <item>Oophorinum</item>
+        <item>Opium</item>
+        <item>Opuntia</item>
+        <item>Orchitinum</item>
+        <item>Oreodaphne</item>
+        <item>Origanum</item>
+        <item>Ornithogalum</item>
+        <item>Osmium</item>
+        <item>Ostrya</item>
+        <item>Ovi Gallinæ Pellicula</item>
+        <item>Oxalicum Acidum</item>
+        <item>Oxydendron</item>
+        <item>Oxygenium</item>
+        <item>Ricinus</item>
+        <item>Pæonia</item>
+        <item>Palladium</item>
+        <item>Pancreatinum</item>
+        <item>Paraffinum</item>
+        <item>Pareira</item>
+        <item>Parietaria</item>
+        <item>Paris</item>
+        <item>Parotidinum</item>
+        <item>Parthenium</item>
+        <item>Passiflora</item>
+        <item>Pastinaca</item>
+        <item>Paullinia Pinnata</item>
+        <item>Pecten</item>
+        <item>Pediculus</item>
+        <item>Pelargonium Reniforme</item>
+        <item>Penthorum Sedoides</item>
+        <item>Pepsinum</item>
+        <item>Persica</item>
+        <item>Pestinum</item>
+        <item>Petiveria</item>
+        <item>Petroleum</item>
+        <item>Petroselinum</item>
+        <item>Phallus Impudicus</item>
+        <item>Phaseolus</item>
+        <item>Phellandrium</item>
+        <item>Phenacetinum</item>
+        <item>Phlorizinum</item>
+        <item>Phosphoricum Acidum</item>
+        <item>Phosphorus</item>
+        <item>Phosphorus Hydrogenatus</item>
+        <item>Phosphorus Muriaticus</item>
+        <item>Physalia</item>
+        <item>Phytolacca</item>
+        <item>Pichi</item>
+        <item>Picricum Acidum</item>
+        <item>Picrotoxinum</item>
+        <item>Pilocarpinum</item>
+        <item>Pimenta</item>
+        <item>Pimpinella</item>
+        <item>Pinus Lambertiana</item>
+        <item>Pinus Sylvestris</item>
+        <item>Piper Nigrum</item>
+        <item>Piperazinum</item>
+        <item>Piscidia</item>
+        <item>Pix Liquida</item>
+        <item>Plantago</item>
+        <item>Platanus</item>
+        <item>Platinum</item>
+        <item>Platinum Muriaticum</item>
+        <item>Platinum Muriaticum Natronatum</item>
+        <item>Plectranthus</item>
+        <item>Plumbago</item>
+        <item>Plumbum</item>
+        <item>Plumbum Chromicum</item>
+        <item>Plumbum Iodatum</item>
+        <item>Podophyllum</item>
+        <item>Polygonum</item>
+        <item>Polyporus Pinicola</item>
+        <item>Populus Candicans</item>
+        <item>Populus Tremuloides</item>
+        <item>Primula Obconca</item>
+        <item>Primula Veris</item>
+        <item>Primula Vulgaris</item>
+        <item>Prinos Verticillatus</item>
+        <item>Prunus Padus</item>
+        <item>Prunus Spinosa</item>
+        <item>Prunus Virginiana</item>
+        <item>Psorinum</item>
+        <item>Ptelea</item>
+        <item>Pulmo Vulpis</item>
+        <item>Pulsatilla</item>
+        <item>Pulsatilla Nuttaliana</item>
+        <item>Pyrethrum Parthenium</item>
+        <item>Pyrogenium</item>
+        <item>Pyrus Americana</item>
+        <item>Trimethylaminum</item>
+        <item>Quassia</item>
+        <item>Quebracho</item>
+        <item>Quercus</item>
+        <item>Radium Bromatum</item>
+        <item>Ranunculus Acris</item>
+        <item>Ranunculus Bulbosus</item>
+        <item>Ranunculus Ficaria</item>
+        <item>Ranunculus Flammula</item>
+        <item>Ranunculus Glacialis</item>
+        <item>Ranunculus Repens</item>
+        <item>Ranunculus Sceleratus</item>
+        <item>Raphanus</item>
+        <item>Rhamnus Catharticus</item>
+        <item>Rhamnus Frangula</item>
+        <item>Rheum</item>
+        <item>Rhodium Oxydatum Nitricum</item>
+        <item>Rhododendron</item>
+        <item>Rhus Aromatica</item>
+        <item>Rhus Diversiloba</item>
+        <item>Rhus Glabra</item>
+        <item>Rhus Toxicodendron</item>
+        <item>Rhus Venenata</item>
+        <item>Robinia</item>
+        <item>Rosa Damascena</item>
+        <item>Rosmarinus</item>
+        <item>Rubia Tinctorum</item>
+        <item>Rumex Acetosa</item>
+        <item>Rumex Crispus</item>
+        <item>Russula</item>
+        <item>Ruta</item>
+        <item>Sabadilla</item>
+        <item>Sabal Serrulata</item>
+        <item>Sabina</item>
+        <item>Saccharum Lactis</item>
+        <item>Saccharum Officinale</item>
+        <item>Salicinum</item>
+        <item>Salicylicum Acidum</item>
+        <item>Salix Mollissima</item>
+        <item>Salix Nigra</item>
+        <item>Salix Purpurea</item>
+        <item>Salol</item>
+        <item>Salvia</item>
+        <item>Sambucus Canadensis</item>
+        <item>Sambucus Nigra</item>
+        <item>Sanguinaria</item>
+        <item>Sanguinarinum</item>
+        <item>Sanguinarinum Nitricum</item>
+        <item>Sanguinarinum Tartaricum</item>
+        <item>Sanguisuga</item>
+        <item>Sanicula</item>
+        <item>Santalum</item>
+        <item>Santoninum</item>
+        <item>Saponinum</item>
+        <item>Sarracenia</item>
+        <item>Sarsaparilla</item>
+        <item>Scammonium</item>
+        <item>Scarlatininum</item>
+        <item>Schinus</item>
+        <item>Scilla Maritima</item>
+        <item>Scirrhinum</item>
+        <item>Scolopendra</item>
+        <item>Scorpio</item>
+        <item>Scrophularia</item>
+        <item>Scutellaria</item>
+        <item>Secale Cornutum</item>
+        <item>Selenium</item>
+        <item>Sempervivum Tectorum</item>
+        <item>Senecio Aureus</item>
+        <item>Senecio Jacobœa</item>
+        <item>Senega</item>
+        <item>Senna</item>
+        <item>Sepia</item>
+        <item>Septicæminum</item>
+        <item>Silica</item>
+        <item>Silica Marina</item>
+        <item>Silphium</item>
+        <item>Simaruba</item>
+        <item>Sinapis Alba</item>
+        <item>Sinapis Nigra</item>
+        <item>Sium</item>
+        <item>Skookum Chuck</item>
+        <item>Slag</item>
+        <item>Sol</item>
+        <item>Solaninum</item>
+        <item>Solanum Arrebenta</item>
+        <item>Solanum Carolinense</item>
+        <item>Solanum Mammosum</item>
+        <item>Solanum Nigrum</item>
+        <item>Solanum Oleraceum</item>
+        <item>Solanum Pseudo-Capsicum</item>
+        <item>Solanum Tuberosum</item>
+        <item>Solanum Tuberosum Ægrotans</item>
+        <item>Solidago</item>
+        <item>Sphingurus</item>
+        <item>Spigelia</item>
+        <item>Spigelia Marilandica</item>
+        <item>Spiræa Ulmaria</item>
+        <item>Spiranthes</item>
+        <item>Spongia Tosta</item>
+        <item>Stachys Betonica</item>
+        <item>Stannum</item>
+        <item>Stannum Iodatum</item>
+        <item>Staphisagria</item>
+        <item>Stellaria Media</item>
+        <item>Sticta Pulmonaria</item>
+        <item>Stillingia Sylvatica</item>
+        <item>Stramonium</item>
+        <item>Strontium Bromatum</item>
+        <item>Strontium Carbonicum</item>
+        <item>Strontium Nitricum</item>
+        <item>Strophanthus</item>
+        <item>Strychninum</item>
+        <item>Succinum</item>
+        <item>Sulfonal</item>
+        <item>Sulphur</item>
+        <item>Sulphur Hydrogenisatum</item>
+        <item>Sulphur Iodatum</item>
+        <item>Sulphur Terebinthinatum</item>
+        <item>Sulphuricum Acidum</item>
+        <item>Sulphurosum Acidum</item>
+        <item>Sumbul</item>
+        <item>Symphoricarpus Racemosus</item>
+        <item>Symphytum</item>
+        <item>Syzygium</item>
+        <item>Tabacum</item>
+        <item>Tamus</item>
+        <item>Tanacetum</item>
+        <item>Tanghinia</item>
+        <item>Tannin</item>
+        <item>Taraxacum</item>
+        <item>Tarentula</item>
+        <item>Tarentula Cubensis</item>
+        <item>Tartaricum Acidum</item>
+        <item>Taxus Baccata</item>
+        <item>Tellurium</item>
+        <item>Teplitz</item>
+        <item>Terebinthina</item>
+        <item>Tetradymite</item>
+        <item>Teucrium Marum</item>
+        <item>Teucrium Scorodonia</item>
+        <item>Thallium</item>
+        <item>Thea</item>
+        <item>Theridion</item>
+        <item>Thevetia</item>
+        <item>Thiosinaminum</item>
+        <item>Thuja</item>
+        <item>Thyroidinum</item>
+        <item>Thyroiodinum</item>
+        <item>Tilia</item>
+        <item>Titanium</item>
+        <item>Tongo</item>
+        <item>Toxicophis</item>
+        <item>Trachinus</item>
+        <item>Tradescantia</item>
+        <item>Trifolium Pratense</item>
+        <item>Trifolium Repens</item>
+        <item>Trillium</item>
+        <item>Triosteum</item>
+        <item>Triticum Repens</item>
+        <item>Trombidium</item>
+        <item>Tropæolum</item>
+        <item>Tuberculinum</item>
+        <item>Tussilago Farfara</item>
+        <item>Tussilago Fragrans</item>
+        <item>Tussilago Petasites</item>
+        <item>Ulmus Fulva</item>
+        <item>Upas</item>
+        <item>Uranium Nitricum</item>
+        <item>Urea</item>
+        <item>Uricum Acidum</item>
+        <item>Urinum</item>
+        <item>Urtica Urens</item>
+        <item>Usnea Barbata</item>
+        <item>Ustilago</item>
+        <item>Uva-Ursi</item>
+        <item>Vaccininum</item>
+        <item>Vaccinium Myrtillus</item>
+        <item>Valeriana</item>
+        <item>Vanadium</item>
+        <item>Variolinum</item>
+        <item>Veratrinum</item>
+        <item>Veratrum Album</item>
+        <item>Veratrum Nigrum</item>
+        <item>Veratrum Viride</item>
+        <item>Verbascum</item>
+        <item>Verbena Hastata</item>
+        <item>Vesicaria</item>
+        <item>Vespa</item>
+        <item>Viburnum Opulus</item>
+        <item>Viburnum Prunifolium</item>
+        <item>Viburnum Tinus</item>
+        <item>Vichy</item>
+        <item>Vinca Minor</item>
+        <item>Viola Odorata</item>
+        <item>Viola Tricolor</item>
+        <item>Vipera</item>
+        <item>Viscum Album</item>
+        <item>Voeslau</item>
+        <item>Wiesbaden</item>
+        <item>Wildbad</item>
+        <item>Wyethia</item>
+        <item>Xanthoxylum</item>
+        <item>Yohimbinum</item>
+        <item>Yucca Filamentosa</item>
+        <item>Zincum</item>
+        <item>Zincum Aceticum</item>
+        <item>Zincum Bromatum</item>
+        <item>Zincum Cyanatum</item>
+        <item>Zincum Iodatum</item>
+        <item>Zincum Muriaticum</item>
+        <item>Zincum Oxydatum</item>
+        <item>Zincum Phosphoricum</item>
+        <item>Zincum Picricum</item>
+        <item>Zincum Sulphuricum</item>
+        <item>Zincum Valerianicum</item>
+        <item>Zingiber</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tab_our_picks">TabOurPicks</string>
+    <string name="title_activity_array_adapter_image_fragment">ArrayAdapterImageFragment</string>
+    <string name="title_activity_all_contacts">AllContacts</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Close</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_dashboard_in">DashboardIn</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_symptome">Symptome</string>
+    <string name="title_activity_embroyo">Embroyo</string>
+    <string name="title_activity_offline">Offline</string>
+    <string name="title_activity_darbari_list">DarbariList</string>
+    <string name="title_activity_howtouse">Howtouse</string>
+    <string name="title_activity_htmlviewer_cast">HTMLViewerCast</string>
+
+</resources>
