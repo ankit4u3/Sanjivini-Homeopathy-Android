@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="in.electromedica.homeopathy"
-    android:versionCode="4"
+    android:versionCode="8"
     android:versionName="1.0" >
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -121,6 +121,15 @@
             android:enabled="true"
             android:exported="true" >
         </receiver>
+
+        <activity
+            android:name="in.electromedica.homeopathy.Kent"
+            android:label="@string/title_activity_kent" >
+        </activity>
+        <activity
+            android:name="in.electromedica.homeopathy.OfflineMedica"
+            android:label="@string/title_activity_offline_medica" >
+        </activity>
     </application>
 
 </manifest>

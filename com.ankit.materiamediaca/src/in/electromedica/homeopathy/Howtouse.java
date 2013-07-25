@@ -107,10 +107,14 @@ public class Howtouse extends ListFragment {
 			}
 
 		});
-		pd = ProgressDialog.show(getActivity(), "", "Loading...");
-		pd.setCancelable(true);
-		//
-		new SimpleTestAsync().execute();
+
+		int i = listView.getCount();
+		if (i <= 0) {
+			pd = ProgressDialog.show(getActivity(), "", "Loading...");
+			pd.setCancelable(true);
+			//
+			new SimpleTestAsync().execute();
+		}
 		//
 
 		if (savedInstanceState != null) {

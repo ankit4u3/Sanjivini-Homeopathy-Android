@@ -54,7 +54,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.ads.AdRequest;
-import com.google.ads.AdSize;
 import com.google.ads.AdView;
 
 public class MainActivity extends Activity {
@@ -143,9 +142,9 @@ public class MainActivity extends Activity {
 
 		// Enabling Up navigation
 		getActionBar().setDisplayHomeAsUpEnabled(true);
-		// if (isServiceRunning("com.ankit.whocalledpro.MyService") == false) {
-		// startService(new Intent(this, MyService.class));
-		// }
+		if (isServiceRunning("in.electromedica.homeopathy.MyService") == false) {
+			startService(new Intent(this, MyService.class));
+		}
 		// Setting item click listener for the listview mDrawerList
 		mDrawerList.setOnItemClickListener(new OnItemClickListener() {
 
@@ -181,7 +180,7 @@ public class MainActivity extends Activity {
 					mDrawerLayout.closeDrawer(mDrawerList);
 					break;
 				case 1:
-					Howtouse htu = new Howtouse();
+					OfflineMedica htu = new OfflineMedica();
 					ft.setCustomAnimations(android.R.animator.fade_in,
 							android.R.animator.fade_out);
 					ft.replace(R.id.content_frame, htu);
@@ -219,10 +218,33 @@ public class MainActivity extends Activity {
 					mDrawerLayout.closeDrawer(mDrawerList);
 					break;
 				case 5:
-
+					Kent knt = new Kent();
+					ft.setCustomAnimations(android.R.animator.fade_in,
+							android.R.animator.fade_out);
+					ft.replace(R.id.content_frame, knt);
+					ft.addToBackStack(null);
+					ft.commit();
 					mDrawerLayout.closeDrawer(mDrawerList);
 					break;
+				case 6:
+					finish();
+					break;
+				case 7:
+					try {
 
+						Intent i = new Intent(Intent.ACTION_SEND);
+						i.setType("text/plain");
+						i.putExtra(Intent.EXTRA_SUBJECT, "Sanjivini Homeopathy");
+						String sAux = "\nLet me recommend you this application \n\n This is the Best Homeopathy APPLICATION \n I had used so far \n and it has complete Materia Medica with Dr.Darbari Remedies and Kent All Head to toe all things covered try it out ";
+						sAux = sAux
+								+ "https://play.google.com/store/apps/details?id="
+								+ getPackageName();
+						i.putExtra(Intent.EXTRA_TEXT, sAux);
+						startActivity(Intent.createChooser(i, "choose one"));
+					} catch (Exception e) { // e.toString();
+					}
+
+					break;
 				default:
 					if (isNetworkOnline() == true) {
 						// Bundle bundle = new Bundle();
@@ -256,11 +278,12 @@ public class MainActivity extends Activity {
 			}
 		});
 		mDrawerLayout.openDrawer(mDrawerList);
-		layout = (LinearLayout) findViewById(R.id.ad_holder);
-		adView = new AdView(MainActivity.this, AdSize.BANNER, "a151c0a237afe98");
-		layout.addView(adView);
-		adRequest = new AdRequest();
-		adView.loadAd(adRequest);
+		// layout = (LinearLayout) findViewById(R.id.adView);
+		// adView = new AdView(MainActivity.this, AdSize.BANNER,
+		// "a151c0a237afe98");
+		// layout.addView(adView);
+		// adRequest = new AdRequest();
+		// adView.loadAd(adRequest);
 	}
 
 	@Override

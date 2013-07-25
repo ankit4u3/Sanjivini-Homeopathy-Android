@@ -44,25 +44,25 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class id {
         public static final int action_settings=0x7f0a0013;
-        public static final int adView=0x7f0a0012;
-        public static final int ad_holder=0x7f0a0003;
-        public static final int ads=0x7f0a000b;
-        public static final int appicon=0x7f0a0010;
-        public static final int apptitle=0x7f0a0011;
+        public static final int adView=0x7f0a0005;
+        public static final int ads=0x7f0a000c;
+        public static final int appicon=0x7f0a0011;
+        public static final int apptitle=0x7f0a0012;
         public static final int content_frame=0x7f0a0004;
-        public static final int datee=0x7f0a000f;
+        public static final int datee=0x7f0a0010;
         public static final int drawer_layout=0x7f0a0002;
-        public static final int drawer_list=0x7f0a0005;
-        public static final int dummy_button=0x7f0a0008;
-        public static final int fullscreen_content=0x7f0a0006;
-        public static final int fullscreen_content_controls=0x7f0a0007;
+        public static final int drawer_list=0x7f0a0006;
+        public static final int dummy_button=0x7f0a0009;
+        public static final int fullscreen_content=0x7f0a0007;
+        public static final int fullscreen_content_controls=0x7f0a0008;
         public static final int pager=0x7f0a0000;
         public static final int pager_title_strip=0x7f0a0001;
-        public static final int section_label=0x7f0a0009;
-        public static final int userIcon=0x7f0a000c;
-        public static final int username=0x7f0a000d;
-        public static final int usertext=0x7f0a000e;
-        public static final int webView1=0x7f0a000a;
+        public static final int relative_layout=0x7f0a0003;
+        public static final int section_label=0x7f0a000a;
+        public static final int userIcon=0x7f0a000d;
+        public static final int username=0x7f0a000e;
+        public static final int usertext=0x7f0a000f;
+        public static final int webView1=0x7f0a000b;
     }
     public static final class layout {
         public static final int activity_all_contacts=0x7f030000;
@@ -73,18 +73,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_embroyo=0x7f030005;
         public static final int activity_howtouse=0x7f030006;
         public static final int activity_htmlviewer_cast=0x7f030007;
-        public static final int activity_main=0x7f030008;
-        public static final int activity_offline=0x7f030009;
-        public static final int activity_splash_screen=0x7f03000a;
-        public static final int activity_symptome=0x7f03000b;
-        public static final int activity_tab_our_picks=0x7f03000c;
-        public static final int drawer_list_item=0x7f03000d;
-        public static final int fragment_dashboard_in_dummy=0x7f03000e;
-        public static final int fragment_layout=0x7f03000f;
-        public static final int item=0x7f030010;
-        public static final int row=0x7f030011;
-        public static final int url_list=0x7f030012;
-        public static final int yads=0x7f030013;
+        public static final int activity_kent=0x7f030008;
+        public static final int activity_main=0x7f030009;
+        public static final int activity_offline=0x7f03000a;
+        public static final int activity_offline_medica=0x7f03000b;
+        public static final int activity_splash_screen=0x7f03000c;
+        public static final int activity_symptome=0x7f03000d;
+        public static final int activity_tab_our_picks=0x7f03000e;
+        public static final int drawer_list_item=0x7f03000f;
+        public static final int fragment_dashboard_in_dummy=0x7f030010;
+        public static final int fragment_layout=0x7f030011;
+        public static final int item=0x7f030012;
+        public static final int row=0x7f030013;
+        public static final int url_list=0x7f030014;
+        public static final int yads=0x7f030015;
     }
     public static final class menu {
         public static final int all_contacts=0x7f090000;
@@ -95,10 +97,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int embroyo=0x7f090005;
         public static final int howtouse=0x7f090006;
         public static final int htmlviewer_cast=0x7f090007;
-        public static final int main=0x7f090008;
-        public static final int offline=0x7f090009;
-        public static final int symptome=0x7f09000a;
-        public static final int tab_our_picks=0x7f09000b;
+        public static final int kent=0x7f090008;
+        public static final int main=0x7f090009;
+        public static final int offline=0x7f09000a;
+        public static final int offline_medica=0x7f09000b;
+        public static final int symptome=0x7f09000c;
+        public static final int tab_our_picks=0x7f09000d;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
@@ -116,7 +120,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int title_activity_embroyo=0x7f060011;
         public static final int title_activity_howtouse=0x7f060014;
         public static final int title_activity_htmlviewer_cast=0x7f060015;
+        public static final int title_activity_kent=0x7f060016;
         public static final int title_activity_offline=0x7f060012;
+        public static final int title_activity_offline_medica=0x7f060017;
         public static final int title_activity_splash_screen=0x7f060009;
         public static final int title_activity_symptome=0x7f060010;
         public static final int title_activity_tab_our_picks=0x7f060005;

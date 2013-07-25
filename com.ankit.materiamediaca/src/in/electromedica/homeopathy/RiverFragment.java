@@ -42,6 +42,7 @@ public class RiverFragment extends android.app.Fragment {
 	ProgressDialog pd;
 	EditText search;
 	WebView tv;
+	DoPostRequestWCP d;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -68,7 +69,9 @@ public class RiverFragment extends android.app.Fragment {
 		getActivity().getActionBar().setTitle(position);
 
 		byte[] encoded = Base64.encode(position.trim().getBytes());
-		new DoPostRequestWCP().execute(new String(encoded));
+		// new DoPostRequestWCP().execute(new String(encoded));
+		d = new DoPostRequestWCP();
+		d.execute(new String(encoded));
 
 		return v;
 	}
@@ -88,7 +91,8 @@ public class RiverFragment extends android.app.Fragment {
 					String encoding = "utf-8";
 
 					tv.getSettings().setJavaScriptEnabled(true);
-					tv.loadDataWithBaseURL(null, result, mime, encoding, null);
+					tv.loadDataWithBaseURL(null, result.replace("&9472;", ""),
+							mime, encoding, null);
 				}
 			});
 
@@ -107,7 +111,8 @@ public class RiverFragment extends android.app.Fragment {
 		protected void onProgressUpdate(String... values) {
 			// TODO Auto-generated method stub
 
-			// super.onProgressUpdate(values);
+			getActivity().getActionBar().setTitle(values[0]);
+			super.onProgressUpdate(values);
 		}
 
 		@Override
@@ -153,5 +158,18 @@ public class RiverFragment extends android.app.Fragment {
 		}
 
 	}
+
+	// @Override
+	// public boolean onKey(View v, int keyCode, KeyEvent event) {
+	// if (keyCode == KeyEvent.KEYCODE_BACK) {
+	// if (d != null && d.getStatus() == Status.RUNNING) {
+	// d.cancel(true);
+	// }
+	// getActivity().getFragmentManager().beginTransaction().remove(this)
+	// .commit();
+	// return true;
+	// }
+	// return false;
+	// }
 
 }

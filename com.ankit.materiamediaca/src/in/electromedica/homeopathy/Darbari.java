@@ -66,6 +66,7 @@ public class Darbari extends ListFragment {
 		//
 
 		new SimpleTestAsync().execute();
+
 		//
 		// ListAdapter adapter = new SimpleAdapter(getActivity(), items,
 		// android.R.layout.simple_list_item_2, keys, controlIds);

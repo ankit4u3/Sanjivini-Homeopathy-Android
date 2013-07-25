@@ -7,11 +7,13 @@
 
     <string-array name="rivers">
         <item>About</item>
-        <item>Instructions</item>
+        <item>Materia Medica</item>
         <item>Symptoms</item>
         <item>Enfants</item>
         <item>One Remedy</item>
-        <item>***Materia Medica ***</item>
+        <item>Kent</item>
+         <item>Exit</item>
+          <item>Share</item>
         <item>Abies Canadensis</item>
         <item>Abies Nigra</item>
         <item>Abrotanum</item>
@@ -1041,5 +1043,7 @@
     <string name="title_activity_darbari_list">DarbariList</string>
     <string name="title_activity_howtouse">Howtouse</string>
     <string name="title_activity_htmlviewer_cast">HTMLViewerCast</string>
+    <string name="title_activity_kent">Kent</string>
+    <string name="title_activity_offline_medica">OfflineMedica</string>
 
 </resources>

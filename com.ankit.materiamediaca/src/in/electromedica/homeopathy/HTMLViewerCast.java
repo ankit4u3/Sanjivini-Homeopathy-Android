@@ -21,6 +21,7 @@ import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
 public class HTMLViewerCast extends Fragment {
+	private static final String TAG = "web";
 	private ListView listview;
 	private DisplayMetrics metrics;
 	private final int mode = 1;
@@ -42,6 +43,15 @@ public class HTMLViewerCast extends Fragment {
 	private AdRequest adRequest;
 
 	@Override
+	public void onSaveInstanceState(Bundle outState) {
+		getActivity().getFragmentManager().putFragment(outState, TAG, this);
+	}
+
+	public void onRetoreInstanceState(Bundle inState) {
+		getActivity().getFragmentManager().getFragment(inState, TAG);
+	}
+
+	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 
@@ -56,11 +66,12 @@ public class HTMLViewerCast extends Fragment {
 
 		String html = "<html><body> Loading Please Wait !</body></html>";
 		String mime = "text/html";
-		String encoding = "utf-8";
+		String encoding = "UTF-8";
 
 		tv = (WebView) v.findViewById(R.id.webView1);
 		tv.getSettings().setJavaScriptEnabled(true);
-		tv.loadDataWithBaseURL(null, position, mime, encoding, null);
+
+		tv.loadDataWithBaseURL(null, position.toString(), mime, encoding, null);
 
 		return v;
 	}
